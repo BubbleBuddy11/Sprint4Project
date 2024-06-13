@@ -53,4 +53,4 @@ if normalize:
     histnorm = 'percent'
 else:
     histnorm = None
-st.write(px.histogram(data_filtered, x='price', nbins=30, color='condition', histnorm=histnorm, barmode='overlay'))
+st.write(px.histogram(data_filtered, x='price', nbins=40, color='condition', histnorm=histnorm, barmode='overlay'))
