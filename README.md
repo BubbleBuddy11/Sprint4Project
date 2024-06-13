@@ -67,4 +67,4 @@ bash
 
 ## Deployment
 
-The application is deployed on Render and is accessible via the following URL: [https://<APP_NAME>.onrender.com](https://<APP_NAME>.onrender.com)
+The application is deployed on Render and is accessible via the following URL: [https://sprint4project-f4d5.onrender.com](https://sprint4project-f4d5.onrender.com)
