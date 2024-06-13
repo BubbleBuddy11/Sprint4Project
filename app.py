@@ -26,8 +26,10 @@ def preprocess_data(file_path):
     
     return data
 
+project_dir = Path(__file__).resolve().parent
+csv_path = project_dir / "vehicles_us.csv"
 
-data = preprocess_data(r'C:\Users\mercj\Sprint4Project\vehicles_us.csv')
+data = preprocess_data(csv_path)
 
 st.header('Data Viewer')
 st.dataframe(data)
